@@ -15,7 +15,7 @@ s3_client = boto3.client('s3')
 # Función para obtener estadísticas de un canal de YouTube
 def get_stats(api_key, channel_id):
     # Construye la URL para obtener estadísticas del canal
-    url_channel_stats = 'https://youtube.googleapis.com/youtube/v3/channels?part=statistics&id='+channel_id+'&key='+api_key
+    url_channel_stats = 'https://'+channel_id+'&key='+api_key
     response_channels = requests.get(url_channel_stats)
     channel_stats = json.loads(response_channels.content)
     channel_stats = channel_stats['items'][0]['statistics']
