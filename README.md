@@ -1,5 +1,10 @@
 # YouTube Statistics 📊
 
+## TUTORIAL LINK
+
+https://drive.google.com/file/d/1B77C1uVS9fn_fZ-hM2FlFAUCSLBp2tKe/view?usp=drive_link
+
+
 ## Overview ℹ️
 
 This repository provides detailed instructions and handy scripts for extracting YouTube statistics using the powerful YouTube Data v3 API combined with AWS Lambda. Additionally, it offers configurations for seamlessly analyzing the data through Amazon Athena.
